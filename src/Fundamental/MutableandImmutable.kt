@@ -8,6 +8,10 @@ fun main(){
     mutable.add(3090);
     mutable.remove(90)
 
+    immutable[0] 
+
+    immutable.asReversed().forEach { println(it) }
+
     println(immutable)
     println(mutable)
 }

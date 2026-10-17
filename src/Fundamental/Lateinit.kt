@@ -3,7 +3,7 @@ package Fundamental
 lateinit var name : String
 
 fun assign(){
-    name = "Alice"
+    name = "guuo"
 }
 
 fun printName(){
