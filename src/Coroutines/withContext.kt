@@ -5,6 +5,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 
+// this is used to switch execution to a different thread or Dispatcher temporarily.
+// main thread , Worker Thread (IO)
 class withcontext {
 
     suspend fun add(){
