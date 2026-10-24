@@ -601,3 +601,43 @@ import java.lang.reflect.Type
 //
 //    temporaryUser.printInfo() // Output: Manjurin is logged in as Administrator
 //}
+
+//53. value class
+
+//@JvmInline
+//value class UserId(val value: Int)
+//// without jvminline we can't use value,the annotation jvminline only use for the value other then not use
+//
+//fun getUserId(userId: UserId): Int {
+//    return userId.value
+//}
+//fun main() {
+//    val userId = UserId(123)
+//    val id: Int = getUserId(userId)
+//    println(id) // Output: 123
+//}
+
+
+// 54. Jvm Static
+
+
+
+
+
+// 60.jvm overloads
+
+//class Person @JvmOverloads constructor (val name: String, val age: Int = 0)
+//// this is used only for the java interoperating with the java code
+//
+//fun main() {
+//    val person1 = Person("John")
+//
+//    println(person1)
+//    val person2 = Person("Jane", 25)
+//    println(person2)
+//}
+
+// 62. lateinit and lazy
+
+//core difference is that lateinit is a var that you promise to initialize yourself later,
+//while lazy is a val that initializes itself automatically the first time it is accessed.

@@ -6,6 +6,7 @@ fun printLength(text : String?){
     if(text != null){
         println(text.length)
     }
+
     else{
         println(text)
         println("This is a null data")

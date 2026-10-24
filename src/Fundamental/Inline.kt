@@ -2,6 +2,7 @@ package Fundamental
 
 inline fun calculateSum(a: Int, b: Int): Int {
     return a + b
+
 }
 
 fun main() {
